@@ -3,3 +3,29 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+
+/* navigazione */
+header {
+    background-color: #0084FD;
+    width: 100%;
+    padding: 1em;
+}
+
+#navigazione {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+#navigazione i {
+    font-size: 28px;
+}
+
+#navigazione img {
+    height: 40px;
+}
+
+/* main */
+
