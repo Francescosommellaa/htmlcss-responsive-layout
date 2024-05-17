@@ -10,6 +10,9 @@ header {
     background-color: #0084FD;
     width: 100%;
     padding: 1em;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
 #navigazione {
@@ -28,27 +31,32 @@ header {
 }
 
 /* main */
+
+/* regole generali section */
+#first-section {
+    margin: 8em auto 3em;
+}
+
 .rowsone {
     width: 88%;
-    margin: 2em auto 3em;
+    margin: 0 auto;
 }
 
-.big img {
-    width: 100%;
-}
-
+/* regole generali card */
 .content {
     background-color: #B5DDFF;
     border-radius: 20px;
-    padding: 2em 2em 0;
     margin: 1em 0;
 }
 
 .content h2 {
     color: #0084FD;
-    margin-bottom: 1em;
+    margin: 1em 0;
 }
 
+.content p {
+    font-weight: 600;
+}
 
 .content button {
     color: white;
@@ -61,6 +69,28 @@ header {
     font-weight: 700;
 }
 
+/* big card */
+.big {
+    padding: 2em 2em 0;
+}
+
+.big img {
+    width: 100%;
+    display: block;
+}
+
 .fa-apple {
     margin-right: 0.4em;
+}
+
+
+/* small card */
+.small {
+    text-align: center;
+    padding: 2em;
+}
+
+.content .fa-solid {
+    color: #0084FD;
+    font-size: 60px;
 }
