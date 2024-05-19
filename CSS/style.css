@@ -1,9 +1,29 @@
+/* regole generali */
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: pt-sans, open-sans, sans-serif;
 }
 
+h2 {
+    margin: 1em 0;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+button {
+    background-color: #0084FD;
+    border: none;
+    padding: 1em;
+    border-radius: 20px;
+    margin: 2em 0;
+    font-weight: 700;
+}
 
 /* navigazione */
 header {
@@ -28,6 +48,7 @@ header {
 
 #navigazione img {
     height: 40px;
+    width: 80px;
 }
 
 /* main */
@@ -51,32 +72,21 @@ header {
 
 .content h2 {
     color: #0084FD;
-    margin: 1em 0;
 }
 
 .content p {
     font-weight: 600;
+    color: #4C5D6B;
 }
 
 .content button {
-    color: white;
-    background-color: #0084FD;
-    border: none;
     width: 80%;
-    padding: 1em;
-    border-radius: 20px;
-    margin: 2em 0;
-    font-weight: 700;
+    color: white;
 }
 
 /* big card */
 .big {
     padding: 2em 2em 0;
-}
-
-.big img {
-    width: 100%;
-    display: block;
 }
 
 .fa-apple {
@@ -93,4 +103,67 @@ header {
 .content .fa-solid {
     color: #0084FD;
     font-size: 60px;
+}
+
+/* sezione 2 */
+#second-section {
+    background-color: #9792E4;
+    padding: 2em 0;
+}
+
+/* container 1 */
+#second-section .first-container {
+    width: 88%;
+    margin: 0 auto;
+    color: white;
+}
+
+#second-section .second-container {
+    width: 88%;
+    margin: 2em auto;
+    background-color: #fff;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.second-container button {
+    padding: 0.8em 1em;
+    border-radius: 40px;
+    font-size: 24px;
+}
+
+
+/* sezione 3 */
+#third-section {
+    width: 88%;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+
+#third-section .testimonial-container {
+    background-color: #9792E4;
+    border-radius: 40px;
+    padding: 2em;
+    color: white;
+    margin: 2em 0;
+}
+
+.testimonial-container .img {
+    background-image: url(../img/testimonial1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+}
+
+.testimonial-container p {
+    line-height: 180%;
+}
+
+.testimonial-container h3 {
+    margin: 1.5em 0 0;
 }
