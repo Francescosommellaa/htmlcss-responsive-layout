@@ -106,24 +106,28 @@ header {
 }
 
 /* sezione 2 */
-#second-section {
+.purple-section {
     background-color: #9792E4;
     padding: 2em 0;
 }
 
 /* container 1 */
-#second-section .first-container {
+.purple-section .first-container {
     width: 88%;
     margin: 0 auto;
     color: white;
 }
 
-#second-section .second-container {
+.purple-section .second-container {
     width: 88%;
     margin: 2em auto;
     background-color: #fff;
     border-radius: 40px;
     text-align: center;
+}
+
+.second-container p {
+    padding: 0 1em;
 }
 
 .second-container button {
@@ -141,6 +145,22 @@ header {
     padding: 2em 0;
 }
 
+/* text */
+.text-container h2 {
+    color: #9792E4;
+}
+
+.text-container span {
+    font-weight: 200;
+}
+
+.text-container p {
+    font-weight: 600;
+    line-height: 180%;
+}
+
+
+/* testimonial card */
 #third-section .testimonial-container {
     background-color: #9792E4;
     border-radius: 40px;
@@ -150,7 +170,6 @@ header {
 }
 
 .testimonial-container .img {
-    background-image: url(../img/testimonial1.jpg);
     background-size: cover;
     background-position: center;
     width: 100px;
@@ -160,10 +179,41 @@ header {
     margin-bottom: 1.5em;
 }
 
+/* bgimg testimonial */
+.img1 {
+    background-image: url(../img/testimonial1.jpg);
+}
+.img2 {
+    background-image: url(../img/testimonial2.jpg);
+}
+.img3 {
+    background-image: url(../img/testimonial3.jpg);
+}
+
+
 .testimonial-container p {
     line-height: 180%;
 }
 
 .testimonial-container h3 {
     margin: 1.5em 0 0;
+}
+
+/* sezione 4 */
+
+.four-section {
+    color: white;
+    text-align: center;
+}
+
+
+/* card */
+.first-benefit-card-container {
+    color: black;
+    text-align: left;
+    width: 88%;
+    margin: 0 auto;
+    padding: 1em;
+    background-color: #fff;
+    border-radius: 20px;
 }
