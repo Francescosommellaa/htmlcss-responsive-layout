@@ -235,3 +235,56 @@ header {
     color: white;
     background-color: #9792E4;
 }
+
+/* about us */
+#about-us {
+    width: 88%;
+    margin: 2em auto;
+}
+
+#about-us h1 {
+    font-size: 40px;
+    color: #9792E4;
+}
+
+#about-us p {
+    margin: 1.5em 0;
+    font-weight: 600;
+}
+
+#about-us h3 {
+    font-size: 24px;
+    color: #9792E4;
+    margin: 1em 0 0.2em;
+}
+
+#about-us button {
+    font-size: 16px;
+    background-color: #9792E4;
+    color: white;
+}
+
+button i {
+    padding-right: 0.4em;
+}
+
+.about-img {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.about-img img {
+   display: block;
+   width: 100%;
+   border-radius: 50%;
+}
+
+.about-img i {
+    position: absolute;
+    font-size: 60px;
+    color: #9792E4;
+    right: 0px;
+    top: 0px;
+}
