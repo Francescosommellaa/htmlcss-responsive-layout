@@ -25,6 +25,9 @@ button {
     font-weight: 700;
 }
 
+p {
+    line-height: 180%;
+}
 /* navigazione */
 header {
     background-color: #0084FD;
@@ -156,7 +159,6 @@ header {
 
 .text-container p {
     font-weight: 600;
-    line-height: 180%;
 }
 
 
@@ -212,8 +214,24 @@ header {
     color: black;
     text-align: left;
     width: 88%;
-    margin: 0 auto;
-    padding: 1em;
+    margin: 2em  auto;
+    padding: 2em;
     background-color: #fff;
     border-radius: 20px;
+}
+
+.first-benefit-card-container h1 {
+    font-size: 44px;
+    color: #9792E4;
+}
+
+.first-benefit-card-container h3 {
+    margin: 1.4em 0;
+    color: #9792E4;
+}
+
+.first-benefit-card-container button {
+    padding: 1em 4em;
+    color: white;
+    background-color: #9792E4;
 }
