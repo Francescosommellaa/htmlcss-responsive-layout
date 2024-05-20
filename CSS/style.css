@@ -29,10 +29,6 @@ p {
     line-height: 180%;
 }
 
-a {
-    color: rgba(255, 255, 255, 0.747);
-}
-
 
 /* navigazione */
 header {
@@ -40,6 +36,7 @@ header {
     width: 100%;
     padding: 1em;
     position: fixed;
+    z-index: 900;
     top: 0;
     left: 0;
 }
@@ -248,7 +245,7 @@ header {
     margin: 2em auto;
 }
 
-#about-us h1 {
+#about-us h2 {
     font-size: 40px;
     color: #9792E4;
 }
@@ -295,6 +292,7 @@ button i {
     top: 0px;
 }
 
+/* footer */
 footer {
     text-align: center;
 }
@@ -305,18 +303,20 @@ footer {
     color: white;
 }
 
-.top-footer span {
+
+/* sezione superiore footer */
+.top-container span {
     font-weight: 100;
     color: rgba(255, 255, 255, 0.658);
 }
 
-.top-footer h1 {
+.top-container h1 {
     font-size: 40px;
     color: #FDC15F;
     margin: 1em 0;
 }
 
-.top-footer button{
+.top-container button{
     background-color: #fff;
     color: #9792E4;
     width: 80%;
@@ -324,15 +324,26 @@ footer {
     border-radius: 50px;
 }
 
+.top-container a {
+    color: rgba(255, 255, 255, 0.747);
+}
+
+
+/* sezione inferiore footer */
+.gray-section {
+    background-color: #333;
+    padding: 2em 0;
+}
+
 .bottom-container {
     color: white;
 }
 
 .bottom-container p {
+    font-weight: normal;
     margin: 2em 0;
 }
 
-.gray-section {
-    background-color: #333;
-    padding: 2em 0;
+.bottom-container a {
+    color: #9792E4;
 }
