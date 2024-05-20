@@ -216,7 +216,7 @@ header {
 
 
 /* card */
-.first-benefit-card-container {
+.benefit-card {
     color: black;
     text-align: left;
     width: 88%;
@@ -226,17 +226,17 @@ header {
     border-radius: 20px;
 }
 
-.first-benefit-card-container h1 {
+.benefit-card h2 {
     font-size: 44px;
     color: #9792E4;
 }
 
-.first-benefit-card-container h3 {
+.benefit-card h3 {
     margin: 1.4em 0;
     color: #9792E4;
 }
 
-.first-benefit-card-container button {
+.benefit-card button {
     padding: 1em 4em;
     color: white;
     background-color: #9792E4;
