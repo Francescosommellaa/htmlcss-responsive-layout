@@ -1,0 +1,85 @@
+@media screen and (min-width : 768px) {
+
+    /* sezione 1 */
+    .rowsone {
+        display: flex;
+        justify-content: space-between;
+        gap: 1em;
+    }
+
+    .content {
+        width: calc(100% / 3 - 1em);
+    }
+
+    .big {
+        width: calc((100% / 3) * 2 - 0.5em);
+    }
+
+    /* sezione 2 */
+    .first-container h2 {
+        font-size: 60px;
+    }
+
+    /* sezione 3 */
+    .testimonial-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 1em;
+        text-align: left;
+        align-items: center;
+    }
+
+    .text-testimonial {
+        width: 70%;
+    }
+
+    .testimonial-container .img {
+        width: 160px;
+        height: 160px;
+    }
+
+    /* sezione 4 */
+    .benefit-card-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 1em;
+        flex-wrap: wrap;
+        width: 88%;
+        margin: 0 auto;
+    }
+
+    .benefit-card-container .benefit-card {
+        width: calc( 100% / 2 - 1em);
+        margin: 0.5em 0;
+    }
+
+      /* sezione 5 */
+      #about-us {
+        display: flex;
+        justify-content: space-between;
+        gap: 3em;
+      }
+
+      #about-us .about-content {
+        width: 30%;
+      }
+
+      .about-content button {
+        padding: 0.8em 0.6em;
+      }
+}
+
+@media screen and (min-width : 1140px) {
+    .rowsone {
+        width: 80%;
+    }
+
+    .big {
+        display: flex;
+    }
+
+    .content img {
+        width: 20%;
+        height: 40%;
+    }
+}
