@@ -70,8 +70,10 @@
 }
 
 @media screen and (min-width : 1140px) {
+
+    /* sezione 1 */
     .rowsone {
-        width: 80%;
+        width: 60%;
     }
 
     .big {
@@ -79,7 +81,54 @@
     }
 
     .content img {
-        width: 20%;
-        height: 40%;
+        width: 40%;
+        margin: 3em 0 0;
+    }
+
+    /* sezione 2 */
+    .flex-container {
+        width: 60%;
+        margin: 0 auto;
+        display: flex;
+        gap: 3em;
+        justify-content: space-between;
+        align-items: end;
+    }
+
+    .first-container h2 {
+        margin-top: 2em;
+    }
+
+    .second-container img {
+        width: 50%;
+        margin: 0 auto;
+        padding: 1em 0 0;
+    }
+
+    /* sezione 3 */
+    #third-section {
+        width: 60%;
+    }
+
+    /* sezione 4 */
+    .benefit-card-container {
+        width: 60%;
+    }
+
+    .benefit-card-container .benefit-card {
+        width: calc( 100% / 3 - 1em);
+        margin: 0.5em 0;
+    }
+
+    /* sezione 5 */
+    #about-us {
+        width: 60%;
+    }
+
+    /* footer */
+    .top-container,
+    .bottom-container {
+        width: 60%;
+        margin: 0 auto;
     }
 }
